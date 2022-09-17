@@ -31,6 +31,9 @@ const newManifest = {
       css: [css],
     },
   ],
+  background: {
+    service_worker: 'bg.js'
+  },
   web_accessible_resources: [
     {
       ...manifest.web_accessible_resources[0],
